@@ -1,0 +1,32 @@
+.product-2{
+    margin-left: 10rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.remove:hover{
+    transform: scale(1.1);
+    background-color: lightblue;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.remove{
+    padding: 0.8rem;
+    border-radius: 1rem;
+
+}
+.totaldiv{
+    margin-top:10rem ;
+    margin-left: 65rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 25rem;
+    background-color: whitesmoke;
+    position: fixed;
+    border-radius: 1rem;
+    flex-direction: column;
+}
+.hr{
+    border: 1px solid black;
+    width: 10rem;
+}
